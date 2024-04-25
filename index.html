@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Jogo da Memória</title>
+
+  <!-- Referências: 
+    https://marina-ferreira.github.io/tutorials/js/memory-game.pt-br/
+    https://www.youtube.com/watch?v=QbqKRxUyigw
+    https://www.youtube.com/watch?v=dp0zB4n3MUs 
+  
+  OBS: Usamos uma função que faz o reload da pégina caso encontre o coringa ou vença-->
+
+
+
+  <link rel="icon" type="image/png" href="../img/icon.png">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <section class="memory-game">
+
+    <div class="memory-card" data-framework="As_Copa">
+      <img class="frente" src="../img/As_Copa.jpg" alt="As_Copa" />
+      <img class="verso" src="../img/Verso.png" alt="Verso" />
+    </div>
+    <div class="memory-card" data-framework="As_Copa">
+      <img class="frente" src="../img/As_Copa.jpg" alt="As_Copa" />
+      <img class="verso" src="../img/Verso.png" alt="Verso" />
+    </div>
+
+    <div class="memory-card" data-framework="As_espada">
+      <img class="frente" src="../img/As_espada.jpg" alt="As_espada" />
+      <img class="verso" src="../img/Verso.png" alt="Verso" />
+    </div>
+
+    <div class="memory-card" data-framework="As_espada">
+      <img class="frente" src="../img/As_espada.jpg" alt="As_espada" />
+      <img class="verso" src="../img/Verso.png" alt="Verso" />
+    </div>
+
+    <div class="memory-card" data-framework="As_Pau">
+      <img class="frente" src="../img/As_Pau.jpg" alt="As_Pau" />
+      <img class="verso" src="../img/Verso.png" alt="Verso" />
+    </div>
+    <div class="memory-card" data-framework="As_Pau">
+      <img  class="frente" src="../img/As_Pau.jpg" alt="As_Pau" />
+      <img class="verso" src="../img/Verso.png" alt="Verso" />
+    </div>
+
+    <div class="memory-card" data-framework="As_Ouro">
+      <img class="frente" src="../img/As_Ouro.png" alt="As_Ouro" />
+      <img class="verso" src="../img/Verso.png" alt="Verso" />
+    </div>
+    <div class="memory-card" data-framework="As_Ouro">
+      <img class="frente" src="../img/As_Ouro.png" alt="As_Ouro" />
+      <img class="verso" src="../img/Verso.png" alt="Verso" />
+    </div> 
+    <div class="memory-card" data-framework="Joker">
+      <img class="frente" src="../img/Joker.jpg" alt="Joker" />
+      <img class="verso" src="../img/Verso.png" alt="Verso" />
+    </div>
+  </section>
+
+  <button id="reset">RESETAR</button> <!-- O botão de reset é para ser usado durante o jogo, já que no final
+    o próprio programa faz o reload da página-->
+
+    <script src="java/script.js" type="text/javascript" defer></script>
+
+</body>
+</html>
